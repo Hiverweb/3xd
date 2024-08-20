@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        .flag{
+            height:600px;
+            width:900px;
+            background-color:red;
+            border:10px solid white;
+            position:relative;
+            border-radius:30%;
+            border:10px solid gold;
+        }
+        .flag > div{
+            Position:absolute;
+            top:150px;
+            height:300px;
+            width:100%;
+            background-color:blue;
+            border-radius:30%;
+            border:10px solid gold;
+           
+        }
+        .flag > p{
+            text-align:center;
+            z-index:2;
+            font-size:72px;
+            font-family:cursive;
+            padding:0px;
+            color:white;
+            margin:0px;
+        }
+        
+        .flag > div > div{
+            position:relative;
+            top:50px;
+            left:350px;
+            height:200px;
+            width:200px;
+            background-color:white;
+            border-radius:50%;
+            border:10px solid silver;
+            margin:0px;
+        }
+       .flag>div>div p{
+            text-align:center;
+            z-index:1;
+            font-size:72px;
+            font-family:serif;
+            padding:0px;
+            margin:0px;
+          } 
+          *{
+              margin:0px;
+          } 
+       
+    </style>
+</head>    
+<body>
+    <div class="flag">
+       <p>The Flag</p>
+        <div>
+            <div>
+                <p>of Laos</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="test">
+       <p></p> 
+    </div>
+</body>
+</html>
